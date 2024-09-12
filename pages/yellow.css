@@ -1,0 +1,175 @@
+.logo{
+    display: flex;
+}
+.logo > img {
+  width: 150px;
+}
+img{
+    /* width: 600px; */
+}
+body{
+    /* padding: 0px 70px; */
+    font-family: sans-serif;
+    margin: 0 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0px 70px;
+}
+.nav-link{
+    display: flex;
+    gap: 50px;
+}
+ul >li{
+    list-style-type: none;
+
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.english{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.login{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.signup{
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.section1{
+    background-image: url(../svg/yellowbackground.svg);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 90px;
+    /* width: 100%; */
+}
+.section1-child h1{
+    font-weight: 700;
+    font-size: 72px;
+    color: rgb(255, 215, 85);
+}
+.section1-child p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: white;
+    width: 600px;
+}
+.section1-child button{
+    cursor: pointer;
+    background-color:rgb(255, 215, 85) ;
+    width: 250px;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.section2{
+    background-image: url(../svg/yellowbackground2.svg);
+    display: flex;
+    padding: 70px 80px;
+    align-items: center;
+    gap: 100px;
+}
+.section2 img{
+    width: 500px;
+}
+.section2-child{
+    align-items: center;
+    justify-items: center;
+    justify-items: end;
+    
+}
+.section2-child h1{
+   font-size: 72px;
+   font-weight: 700;
+   width: 85%;
+   line-height: 108px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section2-child p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 85%;
+}
+.section2-child button{
+    cursor: pointer;
+    background-color:black ;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+.section3{
+    background-color: #8ac3b2;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    padding: 0 90px;
+}
+.section3 img{
+    width: 500px;
+}
+.section3-child{
+    width: 50%;
+    
+}
+.section3-child h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108px;
+}
+.section3-child p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.section3-child button{
+    cursor: pointer;
+    background-color:black ;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.section4{
+    background-image: url(../svg/yellowbackground3.svg);
+    display: flex;
+    justify-content: space-between;
+}
+.section4-child{
+    width: 40%;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.section4-child h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108px;
+}
+.section4-child p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
